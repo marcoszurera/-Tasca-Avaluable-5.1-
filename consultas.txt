@@ -1,0 +1,15 @@
+//customerName
+
+//customer[adress/country='USA']/customerName
+
+//customer[adress/country='France' and creditLimit > 1000]/customerName
+
+//customer[adress/city='Nantes']/contact/*
+
+//customer[@customerNumber='103']/customerName
+
+//customer[adress/addressLine2='NULL']/customerName
+
+distinct-values(//country)
+
+//customer[last()]/customerName
